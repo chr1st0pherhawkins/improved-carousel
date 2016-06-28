@@ -1,0 +1,91 @@
+.carousel-outer
+{
+	width: 100%;
+	position:relative;
+	overflow:hidden;
+}
+
+
+.left-transparent
+{
+	float:left;
+	width:20%;
+	position:absolute;
+	opacity:0.4;
+	background-color: black;
+	left:0px;
+	height:250px;
+	z-index: 50;
+}
+
+.left-link{
+	position:absolute;
+	left:0px;
+	z-index:100;
+}
+
+
+.right-link{
+	position: absolute;
+	right:0px;
+	z-index: 100;
+}
+.right-transparent
+{
+    float:left;
+	width:20%;
+	position:absolute;
+	opacity:0.4;
+	background-color: black;
+	right:0px;
+	height:250px;
+	z-index: 50;
+}
+
+.carousel-inner
+{
+	float:left;
+	overflow: visible;
+	height:500px;
+	margin-left: 20%;
+	position: relative;
+	
+}
+
+.wrapper
+{
+	position: absolute;
+	width:100%;
+}
+
+.wrapper .carousel-item{
+	float:left;
+	width:500px;
+}
+
+.scroll-buttons{
+	position: absolute;
+	bottom: 0px;
+	margin: 0px 10px;
+	list-style:none;
+	}
+
+	.scroll-buttons .scroll-button
+	{
+		float:left;
+		width:20px;
+		height:20px;
+		border:1px solid black;
+		text-align: center;
+		margin: 0px 20px;
+	}
+
+	.scroll-buttons .scroll-button:hover{
+		cursor: pointer;
+		background-color: #fff;
+		color: #000;
+	}
+
+	.activeLink{
+		background-color: #000;
+	}
